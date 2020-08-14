@@ -5,6 +5,7 @@ export async function handler(req:object) {
     headers: {
       "content-type": "text/html; charset=utf8",
     },
+    statusCode: 200,
     body: await render(),
   };
 }
